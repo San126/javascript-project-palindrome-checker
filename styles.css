@@ -1,0 +1,82 @@
+body {
+    background-color: #02021d;
+    align-items: center;
+    color: hsl(189, 0%, 65%);
+}
+
+h1{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Lato, serif;
+  text-shadow: 5px 5px 8px #1616da;
+}
+
+.container {
+    display: flex;
+    margin: auto; 
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+}
+
+#text-button {
+  background:  linear-gradient( hsl(240, 82%, 30%), hsl(240, 82%, 45%), hsl(240, 82%, 30%) );
+  margin: 20px;
+  width: 300px;
+  max-width:300px;
+  min-width:300px;
+  height: 120px; 
+  border: 2px solid #1616da;
+  padding: 20px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px 10px #1616da;
+  color: hsl(150, 0%, 67%);
+}
+
+#text-input {
+  color: hsl(150, 0%, 77%);
+  font-size: 17px;
+  border: 0px none;
+  border-color: #aeaef7;
+  background:  linear-gradient(180deg, hsl(240, 82%, 41%) 0%, hsl(240, 82%, 47%) 50%,hsl(240, 82%, 39%));
+  border-bottom: 3px solid #09095c;
+  margin: 15% 0;
+  width: 95%;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+#text-input:focus {
+  outline: none;
+}
+
+.output-message {
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.hide {
+ display: none;
+}
+
+.output-check-button {
+  display: inline;
+  color: black;
+  margin: 70px 0 50px 10px;
+  height:40px;
+  width: 70px;
+  min-width : 70px;
+  max-width : 70px;
+  background: linear-gradient( hsl(240, 82%, 63%) 10%, hsl(240, 82%, 75%) 60%, hsl(240, 82%, 760%));;
+  padding: 5px;
+  border-radius: 50px;
+  border: 2px solid hsl(240, 82%, 75%);
+}
